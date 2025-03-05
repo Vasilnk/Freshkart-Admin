@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:freshkart_admin/view/screens/account/account_screen.dart';
-import 'package:freshkart_admin/view/screens/orders/orders_screen.dart';
+import 'package:freshkart_admin/view/screens/profile_screen.dart';
+import 'package:freshkart_admin/view/screens/orders_screen.dart';
 
 import 'add_update_screen.dart';
 import 'dashboard_screen.dart';

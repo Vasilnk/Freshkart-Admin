@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freshkart_admin/core/constants.dart';
+import 'package:freshkart_admin/utils/constants.dart';
 import 'package:freshkart_admin/view/screens/edit_category_page.dart';
 import 'package:freshkart_admin/view/screens/products_screen.dart';
 

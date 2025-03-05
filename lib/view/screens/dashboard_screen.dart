@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freshkart_admin/core/constants.dart';
+import 'package:freshkart_admin/utils/constants.dart';
 import 'package:freshkart_admin/view/widgets/appbar.dart';
 
 class DashboardScreen extends StatelessWidget {

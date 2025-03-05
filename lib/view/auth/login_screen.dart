@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:freshkart_admin/core/constants.dart';
+import 'package:freshkart_admin/utils/constants.dart';
 import 'package:freshkart_admin/view/screens/landing_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:shared_preferences/shared_preferences.dart';

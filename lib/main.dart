@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
-import 'package:freshkart_admin/view/screens/splash_screen.dart';
+import 'package:freshkart_admin/view/auth/splash_screen.dart';
 import 'firebase_options.dart';
 
 void main() async {

@@ -1,9 +1,9 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:freshkart_admin/core/constants.dart';
+import 'package:freshkart_admin/utils/constants.dart';
 import 'package:freshkart_admin/view/screens/landing_screen.dart';
-import 'package:freshkart_admin/view/screens/login_screen.dart';
+import 'package:freshkart_admin/view/auth/login_screen.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
