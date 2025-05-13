@@ -1,10 +1,8 @@
-class CategoryModel {
-  String id;
-  String name;
-  String image;
-  CategoryModel(this.id, this.image, this.name);
+import 'dart:typed_data';
 
-  Map<String, dynamic> toMap() {
-    return {'name': name, 'imageUrl': image};
-  }
+class CategoryModel {
+  String? docid;
+  String name;
+  Uint8List? imageBytes;
+  CategoryModel({this.docid, this.imageBytes, required this.name});
 }
