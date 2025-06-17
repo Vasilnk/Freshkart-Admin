@@ -94,6 +94,15 @@ class OrderStatusManageButton extends StatelessWidget {
                     }
 
                     Navigator.pop(context);
+                    Navigator.pop(context);
+                    ScaffoldMessenger.of(context).showSnackBar(
+                      SnackBar(
+                        backgroundColor: Colors.green,
+                        content: Text(
+                          'Order Number:   $orderId is  $selectedStatus',
+                        ),
+                      ),
+                    );
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: AppColors.greenColor,

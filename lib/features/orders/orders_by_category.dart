@@ -25,7 +25,13 @@ class OrdersByCategory extends StatelessWidget {
           if (orders.isEmpty) {
             return Center(child: Text("No $status orders"));
           }
-          return ListView.builder(
+          return GridView.builder(
+            gridDelegate: const SliverGridDelegateWithMaxCrossAxisExtent(
+              maxCrossAxisExtent: 500,
+              childAspectRatio: 1.7,
+              crossAxisSpacing: 10,
+              mainAxisSpacing: 10,
+            ),
             itemBuilder: (context, intex) {
               final order = orders[intex];
 

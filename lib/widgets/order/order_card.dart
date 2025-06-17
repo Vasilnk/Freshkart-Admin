@@ -29,6 +29,7 @@ class OrderCard extends StatelessWidget {
                 flex: 1,
                 child: Column(
                   crossAxisAlignment: CrossAxisAlignment.start,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   spacing: 13,
                   children: [
                     Text(

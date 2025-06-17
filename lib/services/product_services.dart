@@ -89,7 +89,6 @@ class FirestoreProductServices {
   }
 
   deleteProduct(String docId) {
-    print('called delte function');
     firestore.collection(collection).doc(docId).delete();
   }
 
